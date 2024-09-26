@@ -1,6 +1,6 @@
 import { MdDelete, MdPerson, MdPhone } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/ContactsOps";
+import { deleteContact } from "../../redux/contactsOps";
 
 export default function Contact({ data: { id, name, number } }) {
 
